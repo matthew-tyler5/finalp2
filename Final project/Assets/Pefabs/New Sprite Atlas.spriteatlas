@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1073304012, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -994870222, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -1974760632, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -1206176572, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: 1769523397, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: 852856234, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: 1994285678, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -1895869266, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: 250554372, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -648873103, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -1243502570, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -1043203982, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  - {fileID: -183662387, guid: 04e0bb8b553243e41b836c9a95a1c7c3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Moon_plain_12
+  - Moon_plain_11
+  - Moon_plain_10
+  - Moon_plain_0
+  - Moon_plain_1
+  - Moon_plain_2
+  - Moon_plain_3
+  - Moon_plain_4
+  - Moon_plain_5
+  - Moon_plain_6
+  - Moon_plain_7
+  - Moon_plain_8
+  - Moon_plain_9
+  m_RenderDataMap: {}
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0
