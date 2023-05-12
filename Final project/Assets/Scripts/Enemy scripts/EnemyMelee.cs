@@ -70,4 +70,4 @@ public class EnemyMelee : MonoBehaviour
         if (PlayerInSight())
             playerHealth.TakeDamage(damage);
     }
-} 
+}

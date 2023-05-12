@@ -27,11 +27,13 @@ public class Health : MonoBehaviour
     }
     public void TakeDamage(float _damage)
     {
+        
         if (invulnerable) return;
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
         if (currentHealth > 0)
         {
+            //triggers hurt animation
             anim.SetTrigger("hurt");
             StartCoroutine(Invunerability());
         }
@@ -39,9 +41,9 @@ public class Health : MonoBehaviour
         {
             if (!dead)
             {
+                // trigers death animation
                 anim.SetTrigger("die");
 
-                //Deactivate all attached component classes
                 foreach (Behaviour component in components)
                     component.enabled = false;
 
